@@ -25,7 +25,29 @@ A protocol is like a common set of rules or a language that computers and device
 
 
 
+TCP vs UDP: Differences between the protocols
+The main difference between TCP (transmission control protocol) and UDP (user datagram protocol) is that TCP is a connection-based protocol and UDP is connectionless. While TCP is more reliable, it transfers data more slowly. UDP is less reliable but works more quickly. This makes each protocol suited to different types of data transfers.
 
+Protocols are rules that govern how data is formatted and sent over a network. TCP and UDP are two different methods for doing the same job: transferring data via the internet. They enable servers and devices to communicate so you can send emails, watch Netflix, play games, and browse web pages.
+
+TCP creates a secure communication line to ensure the reliable transmission of all data. Once a message is sent, the receipt is verified to make sure all the data was transferred.
+
+UDP does not establish a connection when sending data. It sends data without confirming receipt or checking for errors. That means some or all of the data may be lost during transmission.
 
  
 
+TCP is best for:
+
+Email or texting
+
+File transfers
+
+Web browsing
+
+UDP is best for:
+
+Live streaming
+
+Online gaming
+
+Video chat
