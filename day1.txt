@@ -1,0 +1,31 @@
+Network
+A network is when two or more computers (or phones, tablets, printers, etc.) are connected so they can talk to each other and share things.
+Examples:  Your home Wi-Fi → your phone, laptop, smart TV are all on the same network  
+School/office computers connected with cables or Wi-Fi  
+Even just two phones connected by Bluetooth = a very small network
+
+Think of it like friends holding hands — they can now pass messages, files, photos to each other.
+
+
+
+Internet
+The Internet is the very very big network that connects millions of small networks all over the world together.
+It’s like one giant spider web made of billions of computers, phones, servers, cables (under the sea, on land), satellites, etc.Simple way to remember:  Network = friends in your house/school/office who can share things  
+Internet = all the friends in the whole world connected together (so you can watch YouTube, chat with someone in another country, play online games, etc.)
+
+
+
+
+
+
+
+A protocol is like a common set of rules or a language that computers and devices follow so they can talk to
+ each other properly on a network or the internet.Without protocols, devices would be like people speaking 
+ completely different languages — they couldn't understand each other, even if connected by wires or Wi-Fi.
+
+
+
+
+
+ 
+
