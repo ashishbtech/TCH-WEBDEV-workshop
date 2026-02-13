@@ -1,0 +1,145 @@
+/* ====== h1 ====== */
+h1 {
+  border: 2px solid blue;
+  padding: 10px;
+  text-align: center;
+}
+
+/* ====== ID Selector ====== */
+#div {
+  text-decoration-line: underline;
+  text-decoration-style: dotted;
+  text-align: center;
+}
+
+/* ====== Class Selector ====== */
+.class {
+  text-decoration: line-through;
+  font-size: medium;
+}
+
+/* ====== Paragraph ====== */
+p {
+  font-display: initial;
+  text-shadow: 4px 4px 4px rebeccapurple;
+}
+
+/* ====== Child ====== */
+.child {
+  height: 100px;
+  width: 100px;
+  background-color: blueviolet;
+  border: 5px solid chartreuse;
+  margin: 20px;
+  padding: 5%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20%;
+}
+
+/* ====== Parent Flex ====== */
+.parent {
+  display: flex;
+  border: 5px solid black;
+}
+
+/* ====== Gradient ====== */
+.grad {
+  width: 300px;
+  height: 150px;
+  background: linear-gradient(to right, red, yellow);
+  margin: 20px 0;
+}
+
+/* ====== Opacity (only background) ====== */
+.opace {
+  width: 300px;
+  height: 150px;
+  background: rgba(0, 0, 255, 0.5);
+  color: rgb(190, 34, 34);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  border-radius: 10px;
+  margin: 20px;
+}
+
+/* ====== Box Model ====== */
+.boxmodel {
+  width: 200px;
+  height: 100px;
+  padding: 20px;
+  border: 2px solid black;
+  margin: 10px;
+  background: lightblue;
+}
+
+/* ====== Box Shadow ====== */
+.boxshadow {
+  width: 200px;
+  height: 100px;
+  background: #c70f0f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 5px 5px 10px rgba(57, 22, 199, 0.4);
+}
+
+/* ====== Flex Wrap ====== */
+#flex {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 20px 0;
+  justify-content: center;
+  align-items: center;
+}
+
+.stud {
+  height: 50px;
+  width: 50px;
+  background-color: blue;
+  border: 5px solid black;
+}
+
+/* ====== Flex Direction Example ====== */
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 20px 0;
+}
+
+.item {
+  width: 120px;
+  height: 80px;
+  background: lightblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.blue-row {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 20px;
+  background: #00f0f0; /* light cyan background like your image */
+  padding: 10px;
+}
+
+.blue-box {
+  width: 150px;
+  height: 80px;
+  background: blue;
+  border: 5px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: bold;
+}
+/* align items vertical ko center karta hai aur justify content horizontally center karte hai :- by sikha mam */
+/* align content ka use karte hai taaki content next line me aa jai */

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flexbox + Transition Demo</title>
+  <style>
+    /* ===== Body ===== */
+    body {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      font-family: Arial, sans-serif;
+      background: #f0f0f0;
+      margin: 0;
+      padding: 20px;
+    }
+
+    /* ===== Heading ===== */
+    h1 {
+      margin-bottom: 30px;
+      color: #333;
+    }
+
+    /* ===== Flex container ===== */
+    .blue-row {
+      display: flex;            /* Flexbox container */
+      gap: 20px;                /* space between boxes */
+      justify-content: center;  /* center horizontally */
+      margin-top: 20px;
+    }
+
+    /* ===== Blue boxes ===== */
+    .blue-box {
+      width: 100px;
+      height: 100px;
+      background: blue;
+      color: white;
+      display: flex;            /* center content inside box */
+      justify-content: center;
+      align-items: center;
+      font-weight: bold;
+      border-radius: 10px;
+
+      /* ===== TRANSITION ===== */
+      /* transition-property: transform + background, duration 1s, smooth ease */
+      transition: transform 1s ease, background 1s ease;
+    }
+
+    /* ===== Hover Effect ===== */
+    .blue-box:hover {
+      transform: scale(1.3) rotate(10deg);    /* box grows + rotates slightly */
+      background: darkblue;                   /* color changes */
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Flexbox with Transition + Duration</h1>
+
+  <!-- Row of blue boxes -->
+  <div class="blue-row">
+    <div class="blue-box">1</div>
+    <div class="blue-box">2</div>
+    <div class="blue-box">3</div>
+    <div class="blue-box">4</div>
+    <div class="blue-box">5</div>
+  </div>
+
+</body>
+</html>

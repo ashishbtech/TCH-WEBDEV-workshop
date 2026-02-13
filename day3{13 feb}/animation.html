@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Transition & Transform Example</title>
+  <style>
+    /* ====== Body ko center align karna ====== */
+body {
+  display: flex;               /* flex container banao */
+  flex-direction: column;      /* items ko vertical arrange karo */
+  justify-content: center;     /* vertically center karo */
+  align-items: center;         /* horizontally center karo */
+  height: 100vh;               /* pura viewport height lo */
+  margin: 0;                   /* default margin hatao */
+  background: #f0f0f0;         /* halki grey background */
+  font-family: Arial, sans-serif;  /* font set karo */
+}
+
+/* ====== Heading style ====== */
+h1 {
+  margin-bottom: 30px;         /* neeche thoda space do */
+}
+
+/* ====== Ye box hai jisko hover pe animate karna hai ====== */
+.box {
+  width: 200px;                /* box ki width */
+  height: 100px;               /* box ki height */
+  background: blue;            /* background blue color */
+  color: white;                /* text white color */
+  display: flex;               /* flex use karo content center karne ke liye */
+  justify-content: center;     /* horizontally center karo */
+  align-items: center;         /* vertically center karo */
+  border-radius: 10px;         /* thode rounded corners */
+
+  /* Smooth animation ke liye transition lagao */
+  transition: transform 0.4s ease, background 0.4s ease;
+}
+
+/* ====== Hover karte hi ye effects apply honge ====== */
+.box:hover {
+  /* Thoda bada aur ghumao box ko */
+  transform: scale(1.2) rotate(10deg);
+
+  /* Background color badal jaayega */
+  background: purple;
+}
+
+  </style>
+</head>
+<body>
+
+  <h1>Transition & Transform Demo</h1>
+
+  <!-- Box with transition and transform -->
+  <div class="box">Hover Me</div>
+
+</body>
+</html>
