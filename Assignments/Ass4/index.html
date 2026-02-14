@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Registration Form</title>
+</head>
+<body>
+
+    <h2>Student Registration Form</h2>
+
+    <form>
+
+        
+        <label for="studentName">Student Name</label><br>
+        <input type="text" id="studentName" name="studentName" style="width: 100%;"><br><br>
+
+       
+        <label for="mobile">Mobile No.</label>
+        <input type="text" id="mobile" name="mobile" style="width: 45%;">
+
+        <label for="email" style="margin-left: 10px;">Email Id</label>
+        <input type="email" id="email" name="email" style="width: 45%;"><br><br>
+
+        
+        <label for="fatherName">Father Name</label>
+        <input type="text" id="fatherName" name="fatherName" style="width: 45%;">
+
+        <label for="motherName" style="margin-left: 10px;">Mother Name</label>
+        <input type="text" id="motherName" name="motherName" style="width: 45%;"><br><br>
+
+        
+        <label for="course">Select Course</label>
+        <select id="course" name="course" style="width: 45%;">
+            <option value="">Select...</option>
+            <option value="bsc">B.Sc</option>
+            <option value="bca">BCA</option>
+            <option value="btech">B.Tech</option>
+            <option value="mba">MBA</option>
+        </select>
+
+        <label for="dob" style="margin-left: 10px;">Date Of Birth</label>
+        <input type="date" id="dob" name="dob" style="width: 45%;"><br><br>
+
+        
+        <label>Gender</label><br>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label>
+
+        <input type="radio" id="female" name="gender" value="female" style="margin-left: 15px;">
+        <label for="female">Female</label><br><br>
+
+        <label for="photo">Student Photo</label><br>
+        <input type="file" id="photo" name="photo"><br><br>
+
+        
+        <label>Select Branch</label><br>
+        <input type="checkbox" id="cse" name="branch" value="cse">
+        <label for="cse">CSE</label>
+
+        <input type="checkbox" id="it" name="branch" value="it" style="margin-left: 10px;">
+        <label for="it">IT</label>
+
+        <input type="checkbox" id="ece" name="branch" value="ece" style="margin-left: 10px;">
+        <label for="ece">ECE</label>
+
+        <input type="checkbox" id="civil" name="branch" value="civil" style="margin-left: 10px;">
+        <label for="civil">Civil</label><br><br>
+
+        
+        <label for="address">Address</label><br>
+        <textarea id="address" name="address" rows="4" style="width: 100%;"></textarea><br><br>
+
+        
+        <input type="submit" value="Submit" style="background-color: red; color: white; width: 100%; padding: 10px; border: none;">
+
+    </form>
+
+</body>
+</html>
