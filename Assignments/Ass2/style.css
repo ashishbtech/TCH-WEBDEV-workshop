@@ -19,7 +19,7 @@ form {
 .row input,
 .row select {
   flex: 1;
-}
+} 
 
 .indent {
   margin-left: 180px;
