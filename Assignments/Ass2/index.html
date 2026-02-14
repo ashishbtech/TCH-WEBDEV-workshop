@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login Form</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<form action="#" method="POST">
+
+    <div class="row">
+        <label>Username:</label>
+        <input type="text" name="username">
+    </div>
+
+    <div class="row">
+        <label>Password:</label>
+        <input type="password" name="password">
+    </div>
+
+    <div class="row">
+        <label>City of Employment:</label>
+        <input type="text" name="city">
+    </div>
+
+    <div class="row">
+        <label>Web server:</label>
+        <select name="server">
+            <option>-- Choose a server --</option>
+            <option>Ashish</option>
+            <option>Boruto</option>
+            <option>Naruto</option>
+            <option>Hinata</option>
+        </select>
+    </div>
+
+    <div class="row">
+        <label>Please specify your role:</label>
+    </div>
+
+    <div class="indent">
+        <input type="radio" name="role" value="admin"> Admin <br>
+        <input type="radio" name="role" value="engineer"> Engineer <br>
+        <input type="radio" name="role" value="manager"> Manager <br>
+        <input type="radio" name="role" value="guest"> Guest
+    </div>
+
+    <div class="row">
+        <label>Single Sign-on to the following:</label>
+    </div>
+
+    <div class="indent">
+        <input type="checkbox" name="sso[]" value="mail"> Mail <br>
+        <input type="checkbox" name="sso[]" value="payroll"> Payroll <br>
+        <input type="checkbox" name="sso[]" value="self-service"> Self-service
+    </div>
+
+    <div class="buttons">
+        <input type="submit" value="Login">
+        <input type="reset" value="Reset">
+    </div>
+
+</form>
+
+</body>
+</html>

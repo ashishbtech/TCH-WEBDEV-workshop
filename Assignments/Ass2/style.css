@@ -1,0 +1,31 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+form {
+  width: 450px;
+  margin: 40px auto;
+}
+
+.row {
+  display: flex;
+  margin-bottom: 12px;
+}
+
+.row label {
+  width: 180px;
+}
+
+.row input,
+.row select {
+  flex: 1;
+}
+
+.indent {
+  margin-left: 180px;
+  margin-bottom: 12px;
+}
+
+.buttons {
+  margin-left: 180px;
+}
