@@ -1,0 +1,27 @@
+body {
+    background: #444;
+    font-family: Arial;
+}
+
+.box {
+    width: 600px;
+    margin: 30px auto;
+    background: #fbb9b9;
+    padding: 20px;
+    border: 8px solid black;
+}
+
+h2 {
+    text-align: center;
+}
+
+label {
+    display: inline-block;
+    width: 130px;
+}
+
+input, select, textarea {
+    padding: 3px;
+}
+
+
