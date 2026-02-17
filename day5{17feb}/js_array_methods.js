@@ -79,3 +79,23 @@ console.log("Joined string:", str); // "1, 2, 4, 5"
 // Reverses the array
 numbers.reverse();
 console.log("Reversed array:", numbers); // [5,4,2,1]
+
+
+
+////more example by mdn
+let fruits = ["Apple", "Banana", "Mango", "Orange", "Grapes"];
+
+// Slice from index 1 to 3 (not including 3)
+let selected = fruits.slice(1, 3);
+console.log(selected); // ["Banana", "Mango"]
+
+// Slice from index 2 to the end
+let fromIndex2 = fruits.slice(2);
+console.log(fromIndex2); // ["Mango", "Orange", "Grapes"]
+
+// Slice last 2 elements using negative index
+let lastTwo = fruits.slice(-2);
+console.log(lastTwo); // ["Orange", "Grapes"]
+
+// Original array remains unchanged
+console.log(fruits); // ["Apple", "Banana", "Mango", "Orange", "Grapes"]
