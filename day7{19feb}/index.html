@@ -1,0 +1,94 @@
+<!-- ===================== DOM REVISION SHEET ===================== -->
+
+<h2>📘 DOM (Document Object Model) - Quick Revision</h2>
+
+<p><strong>Definition:</strong><br>
+DOM stands for Document Object Model.<br>
+It represents the HTML document as a tree of objects.<br>
+JavaScript uses the DOM to access and modify HTML & CSS.
+</p>
+
+<hr>
+
+<h3>🌳 DOM Tree Structure</h3>
+<pre>
+Document
+ └── html
+      └── body
+           └── h1
+</pre>
+
+<hr>
+
+<h3>🔹 Selecting Elements</h3>
+
+<pre>
+// By ID
+document.getElementById("idName");
+
+// By Class
+document.getElementsByClassName("className");
+
+// Query Selector (Recommended)
+document.querySelector("#idName");
+document.querySelectorAll(".className");
+</pre>
+
+<hr>
+
+<h3>🔹 Changing Content</h3>
+
+<pre>
+element.textContent = "New Text";
+element.innerHTML = "<b>Bold Text</b>";
+</pre>
+
+<hr>
+
+<h3>🔹 Changing Styles</h3>
+
+<pre>
+element.style.color = "blue";
+element.style.fontSize = "20px";
+</pre>
+
+<hr>
+
+<h3>🔹 Adding Events</h3>
+
+<pre>
+element.addEventListener("click", function() {
+  alert("Element Clicked!");
+});
+</pre>
+
+<hr>
+
+<h3>🔹 Creating & Adding Elements</h3>
+
+<pre>
+const newDiv = document.createElement("div");
+newDiv.textContent = "Hello";
+
+document.body.appendChild(newDiv);
+</pre>
+
+<hr>
+
+<h3>🔹 Removing Elements</h3>
+
+<pre>
+element.remove();
+</pre>
+
+<hr>
+
+<h3>✅ Summary</h3>
+
+<ul>
+  <li>HTML = Structure</li>
+  <li>CSS = Styling</li>
+  <li>JavaScript + DOM = Interactivity</li>
+</ul>
+
+<!-- ===================== END OF REVISION ===================== -->
